@@ -1,0 +1,17 @@
+Preuve 2 PCPI – Θ(t) comme indicateur précurseur de crise
+========================================================
+
+Nombre de crises utilisées : 1102
+Taille de demi-fenêtre : 80
+
+Tension Θ(t) :
+  Baseline mean = 0.098231, std = 0.072571
+  Pré-crise mean = 0.227478, std = 0.150329
+  t-stat = 194.8866, p-value = 0.000e+00
+  Cohen's d = 1.0950
+
+Volatilité V(t) = |Φ_t - Φ_{t-1}| :
+  Baseline mean = 0.040465, std = 0.030471
+  Pré-crise mean = 0.041238, std = 0.031817
+  t-stat = 3.6945, p-value = 2.206e-04
+  Cohen's d = 0.0248

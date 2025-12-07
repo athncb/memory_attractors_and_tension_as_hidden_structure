@@ -1,0 +1,21 @@
+Preuve 3 PCPI – données de marché pour ^GSPC
+==============================================
+
+Modèle baseline (event_{t+1} ~ ret_t + vol_t) :
+  AUC       : 0.7383
+  Brier     : 0.045639
+  Log-loss  : 0.192079
+  n_train   : 6321
+  n_test    : 2709
+
+Modèle enrichi PCPI (event_{t+1} ~ ret_t + vol_t + theta_t + M_t) :
+  AUC       : 0.6058
+  Brier     : 0.045310
+  Log-loss  : 0.189523
+  n_train   : 6321
+  n_test    : 2709
+
+Améliorations (PCPI - baseline) :
+  Δ AUC            : -0.1325
+  Δ Brier (gain)   : 0.000329
+  Δ Log-loss (gain): 0.002557

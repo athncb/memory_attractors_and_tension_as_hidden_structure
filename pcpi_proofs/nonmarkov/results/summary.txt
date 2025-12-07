@@ -1,0 +1,29 @@
+Résumé des analyses (preuve 1 PCPI vs Markov)
+=============================================
+
+AR(p) sur X_t:
+  AR(1): MSE=0.002710, MAE=0.041480
+  AR(2): MSE=0.002684, MAE=0.041266
+  AR(3): MSE=0.002658, MAE=0.041086
+  AR(5): MSE=0.002616, MAE=0.040777
+  AR(10): MSE=0.002564, MAE=0.040344
+
+Régression markovienne vs PCPI-réduite:
+  Modèle A (X_(t+1) ~ X_t):   MSE=0.002710, MAE=0.041480
+  Modèle B (X_(t+1) ~ X_t + M_t): MSE=0.002529, MAE=0.040065
+  Amélioration relative MSE: 0.0667
+  Amélioration relative MAE: 0.0341
+
+Test KS de violation de Markov (conditionnel en M_t):
+  x0: 7.526759867664563
+  eps: 0.01
+  q_low: 0.3
+  q_high: 0.7
+  n_low: 4579
+  n_high: 4579
+  ks_stat: 0.2358593579384145
+  p_value: 4.337391147615929e-112
+  mean_next_low: 7.512580308957942
+  mean_next_high: 7.541256267689385
+  std_next_low: 0.050596397309366534
+  std_next_high: 0.05145936246062161
