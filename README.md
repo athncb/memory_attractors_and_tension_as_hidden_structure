@@ -4,7 +4,7 @@ This repository contains the numerical proofs and code associated with the artic
 
 > **« Mémoire, Attracteurs et Tension comme Structure Cachée des Systèmes Dynamiques »**  
 > Athman NCB, 2025  
-> Zenodo: TODO_ADD_DOI_HERE
+> Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17844456.svg)](https://doi.org/10.5281/zenodo.17844456)
 
 The central claim of the work is that many dynamical models (physics, finance, AI, behavioural systems) implicitly rely on a Markov approximation that ignores a minimal hidden structure:
 - a **slow memory** \(M_t\),
@@ -194,7 +194,7 @@ If you use this code or reproduce these experiments, please cite:
 ```text
 Athman NECIB, 2025.
 « Mémoire, Attracteurs et Tension comme Structure Cachée des Systèmes Dynamiques ».
-Zenodo, [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17844456.svg)](https://doi.org/10.5281/zenodo.17844456).
+Zenodo : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17844456.svg)](https://doi.org/10.5281/zenodo.17844456) 
 ```
 
 Once a DOI is created for this repository (via Zenodo GitHub integration),
