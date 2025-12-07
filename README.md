@@ -25,5 +25,5 @@ memory_attractors_and_tension_as_hidden_structure/
 ├── README.md           # This file
 └── pcpi_proofs/
     ├── nonmarkov/      # Synthetic system: violation of Markov assumption
-    ├── tension_crisis/ # Tension as early-warning signal of regime shift
-    └── market_sp500/   # Real S&P 500 data: predictive gain with (M, A, Θ)
+    ├── tension/ # Tension as early-warning signal of regime shift
+    └── market/   # Real S&P 500 data: predictive gain with (M, A, Θ)
