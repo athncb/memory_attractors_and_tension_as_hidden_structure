@@ -192,9 +192,9 @@ The goal of this repository is to make the claims of the paper **fully checkable
 If you use this code or reproduce these experiments, please cite:
 
 ```text
-Athman NCB, 2025.
+Athman NECIB, 2025.
 « Mémoire, Attracteurs et Tension comme Structure Cachée des Systèmes Dynamiques ».
-Zenodo, TODO_ADD_DOI_HERE.
+Zenodo, [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17844456.svg)](https://doi.org/10.5281/zenodo.17844456).
 ```
 
 Once a DOI is created for this repository (via Zenodo GitHub integration),
